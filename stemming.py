@@ -6,7 +6,7 @@ from string import punctuation
 import numpy
 
 # text
-my_text = ["This is my text and I don't want to recognize different words as different terms: term and terms have same root, also house and houses. I don't wan't to recognize ''t' as term, neither punctuations. I wan't all Donald and Donalds be recognized with same root."]
+my_text = ["This is my text and I don't want to recognize different words as different terms: term and terms have same root, also house and houses. I don't want to recognize ''t' as term, neither punctuations. I wan't all Donald and Donalds be recognized with same root."]
 
 # stop words
 new_stop_words=["Donald"]
